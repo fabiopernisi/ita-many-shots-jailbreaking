@@ -82,7 +82,7 @@ def main(
         skip_prompt=True,
         batch_size=batch_size,
         starting_batch_size=16,
-        apply_chat_template=True,
+        apply_chat_template=False,
     )
 
     logging.info(f"Generated {len(completions)} completions")
