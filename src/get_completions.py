@@ -85,7 +85,7 @@ def main(
     completions = generator(
         texts = formatted_input_texts,
         temperature=0.0001,
-        max_new_tokens=256,
+        max_new_tokens=512,
         top_p=1.0,
         do_sample=True,
         skip_prompt=True,
