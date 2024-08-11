@@ -1,5 +1,5 @@
-The file 'dataset.csv' contains the final dataset.  
-The most relevant colums are:  
+The `dataset.csv` file contains the final dataset.  
+The most relevant colums in the dataset are:  
 * `unsafe_prompt`: original English prompts identified as unsafe, violating categories like "Violence" or "Disinformation"
 * `unsafe_completion`: English model completions generated in response to unsafe prompts in `unsafe_prompt`, flagged as either fully or partially unsafe.
 * `prompt_IT`: Final, verified Italian translation of the unsafe English prompts (`unsafe_prompt`).
