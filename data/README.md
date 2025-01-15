@@ -1,4 +1,4 @@
-The `dataset.csv` file contains the final dataset.  
+The `ItaMSJ.csv` file contains the full dataset.  
 The most relevant colums in the dataset are:  
 * `unsafe_prompt`: original English prompts identified as unsafe, violating categories like "Violence" or "Disinformation"
 * `unsafe_completion`: English model completions generated in response to unsafe prompts in `unsafe_prompt`, flagged as either fully or partially unsafe.
